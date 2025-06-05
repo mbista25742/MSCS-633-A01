@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+
+# If you're using PostgreSQL or MySQL, exclude custom DB dumps
+*.sql
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# VS Code config
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Jupyter notebooks (if used)
+.ipynb_checkpoints/
+
+# ChatterBot database files (SQLite-based)
+*.sqlite3
+
+# Migrations (optional: exclude compiled migration states)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+
+# Ignore environment config if created
+.env
